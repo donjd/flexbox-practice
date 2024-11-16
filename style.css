@@ -9,12 +9,14 @@ body {
 
 header {
     display: flex;
-    background-color: rgb(189, 189, 255);
+    border: 1px solid red;
+    align-items: center;
 }
+
 
 .logo-space {
     width: 100px;
-    height: 100px;
+    height: 80px;
     border: 1px solid red;
     display: flex;
     justify-content: center;
@@ -28,13 +30,32 @@ header {
 }
 
 .header-middle {
-    height: 100px;
+    height: 80px;
     /* width: 100px; */
     flex: 1 1 100px;
     border: 1px solid red;
 }
 
+ul {
+    display: flex;
+    gap: 10px;
+    margin: 0;
+    padding: 10px;
+}
+
+
 li {
     font-size: 1.5rem;
     border: 1px solid red;
+    list-style-type: none;
+}
+
+main {
+    display: flex;
+}
+
+aside {
+    border: 1px solid red;
+    height: 100px;
+    flex: 0 1 100px;
 }
