@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-color: #eeecd2;
+    /* background-color: #eeecd2; */
 }
 
 header {
@@ -12,7 +12,14 @@ header {
     align-items: center;
 }
 
+header a {
+    text-decoration: none;
+    color: black;
+}
 
+header a:hover {
+    color: rgb(117, 117, 117);
+}
 .logo-space {
     width: 100px;
     height: 80px;
@@ -44,13 +51,13 @@ ul {
 
 .links-left {
     height: 80px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .links-right {
     height: 80px;
     flex: 0 1 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 li {
@@ -60,16 +67,12 @@ li {
 }
 
 li input[class="search-bar"]{
+    border: none;
     border-radius: 20px;
     width: 100px;
     height: 30px;
-}
-
-li button[class="sign-up"]{
-    background-color: black;
-    color: white;
-    height: 30px;
-    border-radius: 5px;
+    padding: 0 15px;
+    background-color: #fcd9d9;
 }
 
 main {
